@@ -1,21 +1,24 @@
-const fortniteClassId = 21216;
+const lolClassId = 5426;
 
 const interestingFeatures = [
-  'counters',
-  'death',
-  'items',
+  'summoner_info',
+  'gameMode',
+  'teams',
+  'matchState',
   'kill',
-  'killed',
-  'killer',
-  'location',
+  'death',
+  'respawn',
+  'assist',
+  'minions',
+  'level',
+  'abilities',
+  'announcer',
+  'counters',
   'match_info',
-  'match',
-  'me',
-  'phase',
-  'rank',
-  'revived',
-  'roster',
-  'team'
+  'damage',
+  'heal',
+  'live_client_data'
+  // 'gold'
 ];
 
 const windowNames = {
@@ -28,7 +31,7 @@ const hotkeys = {
 };
 
 export {
-  fortniteClassId,
+  lolClassId,
   interestingFeatures,
   windowNames,
   hotkeys
